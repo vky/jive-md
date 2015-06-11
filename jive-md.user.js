@@ -7,7 +7,7 @@
 // @updateURL   https://raw.githubusercontent.com/Elemecca/jive-md/master/jive-md.user.js
 //
 // @include     /^https://[^.]+\.jiveon\.com/[^?#]+/edit([?#].*)?$/
-// @include     /^https://[^.]+\.jiveon\.com/[^?#]+/create([?#].*)?$/
+// @include     /^https://[^.]+\.jiveon\.com/document/create([?#].*)?$/
 //
 // @resource    md-html  https://raw.githubusercontent.com/neocotic/html.md/3.0.2/dist/md.min.js
 // @resource    md-conv  https://raw.githubusercontent.com/ujifgc/pagedown/f1ae0f5626/Markdown.Converter.js
