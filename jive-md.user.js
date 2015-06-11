@@ -82,6 +82,9 @@ loadScripts( function() {
   wrapper.appendChild( preview );
     
   let panel = document.querySelector( '#edit-document .jive-editor-panel' );
+  if (! panel) {
+      panel = document.querySelector( '#create-document .jive-editor-panel' );
+  }
   panel.appendChild( wrapper );
     
   try {
